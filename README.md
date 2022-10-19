@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aphisit INTHONGXAY</h1>
 <h3 align="center">Its Aphisit from Vientiane,Laos.I have +6 month of experience with Vue.JS, PHP, Node.js, Flutter . My priority is to improve develop code is increasing day by day. In my social life, i like travel enriches the mind and educates us travel allows us to escape life’s daily demands, dramas and deadlines and enables us to clear our minds. It encourages us to recharge our batteries and to truly disconnect (from our phones, Wi-Fi, emails, laptops, social media, etc.) in order to reconnect (with ourselves, each other and the natural environment). In addition, I enjoy talking about new startup ideas.</h3>
 
-- 🔭 I’m currently working on Archineer Digital Co., Ltd. [Brand Saolao](https://brandsaolao.com/)
-
 - 📫 How to reach me **Aphisit.inthongxay@gmail.com**
 
 - 📄 Know about my experiences [https://dragonslayer-beer.netlify.app/](https://dragonslayer-beer.netlify.app/)
