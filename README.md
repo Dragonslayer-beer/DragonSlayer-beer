@@ -1,17 +1,17 @@
 <div align="center" width="50">
 
 ![](https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/header_1.png)
-<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/sp-xd" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
+<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/Dragonslayer-beer" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
   
 <p><strong>Freelancing & Assisting my father at his shop.
 <br><br> Vibing to : 🎧  </strong></p>
 
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul) <br>
+[![Spotify](https://spotify-readme.Dragonslayer-beer.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul) <br>
 
 
-![Totals Hits](https://komarev.com/ghpvc/?username=SP-XD&style=flat&color=orange&label=PROFILE+VIEWS)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSP-XD&count_bg=%2379C83D&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false)
-[![telegram badge](https://img.shields.io/badge/SP-XD-grey?style=flat&logo=telegram)](https://t.me/spxd007) <br>
+![Totals Hits](https://komarev.com/ghpvc/?username=Dragonslayer-beer&style=flat&color=orange&label=PROFILE+VIEWS)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDragonslayer-beer&count_bg=%2379C83D&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false)
+[![telegram badge](https://img.shields.io/badge/Dragonslayer-beer-grey?style=flat&logo=telegram)](https://t.me/spxd007) <br>
 </div>
 
 <hr></hr>
@@ -69,7 +69,7 @@ class About extends Me {
 - &nbsp;&nbsp;<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Banging your head against a wall for one hour burns **150 calories**.<br>
 
 <div align="center" >
-<a  href="https://github.com/SP-XD">
+<a  href="https://github.com/Dragonslayer-beer">
 
 <img src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
 <img src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
@@ -95,7 +95,7 @@ class About extends Me {
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="10%" alt="It's working but you don't know how!"/><br>
 
 
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/this_page_is.gif?raw=true"  width="40%"/>
+<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/this_page_is.gif?raw=true"  width="40%"/>
 
 </div>
 
