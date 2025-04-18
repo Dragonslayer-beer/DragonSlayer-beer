@@ -45,7 +45,7 @@
 ```dart
 // tools_I_use organized
 
-class About extends Me { 
+<!-- class About extends Me { 
   const myTools = {  
     "ProgramingLanguages" : { "Dart", "Go", "Python", "Javascript", "Java", "c++" },
     "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown" },
@@ -54,7 +54,7 @@ class About extends Me {
     "Platforms" : { "Mac", "GNU/Linux", "Windows" },
     "OtherTools" : { "Git", "Figma", "Photoshop", "Gimp", "Lightroom" }
   };
-}
+} -->
 ```
 
 -  <img alt="GIF" src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **Flutter & WebDev**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
@@ -65,17 +65,16 @@ class About extends Me {
 <div align="center" >
 <a  href="https://github.com/Dragonslayer-beer">
   
-![Stars](https://profile-summary-for-github.com/api/cards/stars?username=Dragonslayer-beer_USERNAME&theme=nord_dark)
-<img src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%">
+<img src="./profile-summary-card-output/stars.svg" alt="Stars" width="32.5%">
+<img src="./profile-summary-card-output/repos-per-language.svg" alt="Repos per Language" width="32.5%">
+<img src="./profile-summary-card-output/most-commit-language.svg" alt="Most Commit Language" width="32.5%">
 
 </a>
 
 <details>
   <summary>More stats</summary>
   
-<img align="center" src="https://raw.githubusercontent.com/Dragonslayer-beer/profile-summary-cards/master/profile-summary-card-output/nord_dark/0-profile-details.svg" >
+<img align="center" src="./profile-summary-card-output/profile-details.svg" alt="Profile Details"  >
 
 </details>
   
@@ -88,9 +87,6 @@ class About extends Me {
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="10%" alt="It's working!"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="10%" alt="It's working but you don't know how!"/><br>
-
-
-<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/this_page_is.gif?raw=true"  width="40%"/>
 
 </div>
 
