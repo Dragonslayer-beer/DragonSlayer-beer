@@ -4,8 +4,8 @@
 <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/Dragonslayer-beer" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
   
 
-![Totals Hits](https://komarev.com/ghpvc/?username=Dragonslayer-beer&style=flat&color=orange&label=PROFILE+VIEWS)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDragonslayer-beer&count_bg=%2379C83D&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false)
+![Totals Hits](https://komarev.com/ghpvc/?username=Dragonslayer-beer&style=flat&color=orange&label=Dragonslayer-beer)
+
 
 </div>
 
