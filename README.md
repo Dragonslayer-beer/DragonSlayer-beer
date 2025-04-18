@@ -40,7 +40,7 @@
 
 
 -  <img alt="GIF" src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m learning **frontend and backend**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
-- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **Docker**. <br>
+- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **AI**. <br>
 - <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **building, movies, games, running, workouts, travel, or anything**. <br>
 - &nbsp;&nbsp;<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Regular running lowers resting heart rate and reduces the risk of heart disease by up to 50%.<br>
 
