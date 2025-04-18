@@ -65,16 +65,16 @@
 <div align="center" >
 <a  href="https://github.com/Dragonslayer-beer">
   
-<img src="./profile-summary-card-output/nord_dark/stars.svg" alt="Stars" width="32.5%">
-<img src="./profile-summary-card-output/nord_dark/repos-per-language.svg" alt="Repos per Language" width="32.5%">
-<img src="./profile-summary-card-output/nord_dark/most-commit-language.svg" alt="Most Commit Language" width="32.5%">
+<img src="./profile-summary-card-output/nord_dark/3-stats.svg" alt="Stars" width="32.5%">
+<img src="./profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="Repos per Language" width="32.5%">
+<img src="./profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most Commit Language" width="32.5%">
 
 </a>
 
 <details>
   <summary>More stats</summary>
   
-<img align="center" src="./profile-summary-card-output/nord_dark/profile-details.svg" alt="Profile Details"  >
+<img align="center" src="./profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Profile Details"  >
 
 </details>
   
