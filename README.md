@@ -13,7 +13,7 @@
 
 ![tools_I_use](https://img.shields.io/badge/-%F0%9F%9A%80%20Tools%20I%20use-orange)
 ![semicolon](https://img.shields.io/badge/-%3A-orange)
-![NEXTJS] (https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![NextJs](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![ReactJS](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=flat&logo=express&logoColor=white)
