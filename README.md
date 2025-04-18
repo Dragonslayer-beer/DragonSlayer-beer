@@ -42,10 +42,10 @@
 ![Chakra-UI](https://img.shields.io/badge/Chakra--UI-319795?style=flat&logo=chakra-ui&logoColor=white)
 
 
--  <img alt="GIF" src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **Flutter & WebDev**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
-- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **GNU/Linux**. <br>
-- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Pc building, Movies, or anything**. <br>
-- &nbsp;&nbsp;<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Banging your head against a wall for one hour burns **150 calories**.<br>
+-  <img alt="GIF" src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m learning **frontend and backend**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
+- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **Docker**. <br>
+- <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **building, movies, games, running, workouts, travel, or anything**. <br>
+- &nbsp;&nbsp;<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: There are more possible games of chess than atoms in the known universe.<br>
 
 <div align="center" >
 <a  href="https://github.com/Dragonslayer-beer">
