@@ -1,7 +1,6 @@
 <div align="center" width="50">
 
 ![](https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/header_1.png)
-<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/Dragonslayer-beer" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
 
 
 
@@ -17,6 +16,10 @@
     <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/3.jpeg?raw=true" alt="Developer" width="32%" />
   </a>
 </p>
+
+<img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/Dragonslayer-beer" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
+
+
 
 <hr />
   
