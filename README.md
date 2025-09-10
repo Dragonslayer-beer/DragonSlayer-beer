@@ -10,7 +10,7 @@
     <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/1.jpeg?raw=true" alt="Header Banner" width="32%" />
   </a>
   <a href="https://github.com/Dragonslayer-beer">
-    <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/2.jpeg?raw=true" alt="Dev Working" width="32%" />
+    <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/2.jpg?raw=true" alt="Dev Working" width="32%" />
   </a>
   <a href="https://github.com/Dragonslayer-beer">
     <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/3.jpeg?raw=true" alt="Developer" width="32%" />
