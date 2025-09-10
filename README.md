@@ -2,6 +2,23 @@
 
 ![](https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/header_1.png)
 <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/Dragonslayer-beer" alt="CoDiNg Aphisit INTHONGXAY"  width="60%"/><br> 
+
+
+
+<!-- === Top Gallery: 3 images in one line === -->
+<p align="center">
+  <a href="https://github.com/Dragonslayer-beer">
+    <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/1.jpeg?raw=true" alt="Header Banner" width="32%" />
+  </a>
+  <a href="https://github.com/Dragonslayer-beer">
+    <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/2.jpeg?raw=true" alt="Dev Working" width="32%" />
+  </a>
+  <a href="https://github.com/Dragonslayer-beer">
+    <img src="https://github.com/Dragonslayer-beer/Dragonslayer-beer/blob/main/images/3.jpeg?raw=true" alt="Developer" width="32%" />
+  </a>
+</p>
+
+<hr />
   
 
 ![Totals Hits](https://komarev.com/ghpvc/?username=Dragonslayer-beer&style=flat&color=orange&label=Dragonslayer-beer)
