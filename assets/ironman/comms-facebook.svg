@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="96" viewBox="0 0 336 96" role="img" aria-label="FACEBOOK — aphisit.inthongxay.9">
+<title>FACEBOOK — aphisit.inthongxay.9</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F131B"/><stop offset="1" stop-color="#140709"/></linearGradient>
+<linearGradient id="sbd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C1121F"/><stop offset=".55" stop-color="#F7C548"/><stop offset="1" stop-color="#C1121F"/></linearGradient>
+<clipPath id="sclip"><path d="M15 1H335V80L320 95H1V15Z"/></clipPath>
+<radialGradient id="sglow" cx="48" cy="48" r="44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7DF9FF" stop-opacity=".28"/><stop offset="1" stop-color="#7DF9FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="sshine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="90" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;380 0;380 0" keyTimes="0;.35;1" dur="5s" begin="0s" repeatCount="indefinite"/></linearGradient></defs>
+
+<path d="M15 1H335V80L320 95H1V15Z" fill="url(#sbg)"/>
+<g clip-path="url(#sclip)"><rect width="336" height="96" fill="url(#sshine)"/><rect x="0" y="92" width="336" height="4" fill="#C1121F" fill-opacity=".55"/></g>
+<path d="M15 1H335V80L320 95H1V15Z" fill="none" stroke="url(#sbd)" stroke-width="2"/>
+<circle cx="48" cy="48" r="44" fill="url(#sglow)" style="animation:pulse 2.6s ease-in-out infinite;animation-delay:-0s"/>
+<circle cx="48" cy="48" r="31" fill="#0B0E14" stroke="#F7C548" stroke-width="1.5"/>
+<circle cx="48" cy="48" r="37" fill="none" stroke="#7DF9FF" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="3 6" style="transform-origin:48px 48px;animation:spin 14s linear infinite"/>
+<g transform="translate(33 33) scale(1.25)"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="#F7C548"/></g>
+<text class="d" x="96" y="45" font-size="25" fill="#F7C548" letter-spacing="2">FACEBOOK</text>
+<text class="m" x="96" y="72" font-size="15" fill="#8A94A6">aphisit.inthongxay.9</text>
+<circle cx="314" cy="20" r="4" fill="#7DF9FF" style="animation:blink 1.4s step-end infinite;animation-delay:-0s"/>
+<path d="M294 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-1.2s"/><path d="M303 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-1s"/><path d="M312 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-0.8s"/>
+</svg>

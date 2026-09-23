@@ -31,6 +31,12 @@
 
 > *"Sometimes you gotta run before you can walk."* — Tony Stark
 
+<p>
+  <a href="https://www.facebook.com/aphisit.inthongxay.9/"><img src="assets/ironman/comms-facebook.svg" height="48" alt="Facebook — aphisit.inthongxay.9" /></a>
+  <a href="https://www.tiktok.com/@beer_itx"><img src="assets/ironman/comms-tiktok.svg" height="48" alt="TikTok — @beer_itx" /></a>
+  <a href="https://www.instagram.com/beer_itx/"><img src="assets/ironman/comms-instagram.svg" height="48" alt="Instagram — @beer_itx" /></a>
+</p>
+
 <br clear="right" />
 
 <!-- ─────────────────────────── 02 · ARSENAL ─────────────────────────── -->

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="96" viewBox="0 0 336 96" role="img" aria-label="TIKTOK — @beer_itx">
+<title>TIKTOK — @beer_itx</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F131B"/><stop offset="1" stop-color="#140709"/></linearGradient>
+<linearGradient id="sbd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C1121F"/><stop offset=".55" stop-color="#F7C548"/><stop offset="1" stop-color="#C1121F"/></linearGradient>
+<clipPath id="sclip"><path d="M15 1H335V80L320 95H1V15Z"/></clipPath>
+<radialGradient id="sglow" cx="48" cy="48" r="44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7DF9FF" stop-opacity=".28"/><stop offset="1" stop-color="#7DF9FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="sshine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="90" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;380 0;380 0" keyTimes="0;.35;1" dur="5s" begin="0.6s" repeatCount="indefinite"/></linearGradient></defs>
+
+<path d="M15 1H335V80L320 95H1V15Z" fill="url(#sbg)"/>
+<g clip-path="url(#sclip)"><rect width="336" height="96" fill="url(#sshine)"/><rect x="0" y="92" width="336" height="4" fill="#C1121F" fill-opacity=".55"/></g>
+<path d="M15 1H335V80L320 95H1V15Z" fill="none" stroke="url(#sbd)" stroke-width="2"/>
+<circle cx="48" cy="48" r="44" fill="url(#sglow)" style="animation:pulse 2.6s ease-in-out infinite;animation-delay:-0.7s"/>
+<circle cx="48" cy="48" r="31" fill="#0B0E14" stroke="#F7C548" stroke-width="1.5"/>
+<circle cx="48" cy="48" r="37" fill="none" stroke="#7DF9FF" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="3 6" style="transform-origin:48px 48px;animation:spinr 14s linear infinite"/>
+<g transform="translate(33 33) scale(1.25)"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="#F7C548"/></g>
+<text class="d" x="96" y="45" font-size="25" fill="#F7C548" letter-spacing="2">TIKTOK</text>
+<text class="m" x="96" y="72" font-size="15" fill="#8A94A6">@beer_itx</text>
+<circle cx="314" cy="20" r="4" fill="#7DF9FF" style="animation:blink 1.4s step-end infinite;animation-delay:-0.4s"/>
+<path d="M294 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-1.2s"/><path d="M303 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-1s"/><path d="M312 41l7 7-7 7" fill="none" stroke="#E63946" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:-0.8s"/>
+</svg>

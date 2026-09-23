@@ -12,6 +12,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import config from './config.mjs';
+import BRAND from './brand-icons.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'assets', 'ironman');
@@ -481,7 +482,7 @@ async function fetchStats(login) {
   // One contribution calendar per year, since the account was created.
   const now = new Date(), firstYear = new Date(user.createdAt).getUTCFullYear(), thisYear = now.getUTCFullYear();
   const QY = `query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){
-    totalCommitContributions contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}`;
+    totalCommitContributions restrictedContributionsCount contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}`;
   let years = [];
   for (let y = firstYear; y <= thisYear; y++) {
     const to = y === thisYear ? now.toISOString() : `${y}-12-31T23:59:59Z`;
@@ -489,6 +490,7 @@ async function fetchStats(login) {
     const days = c.contributionCalendar.weeks.flatMap((w) => w.contributionDays).filter((d) => d.date.startsWith(String(y)));
     years.push({
       year: y, total: c.contributionCalendar.totalContributions, commits: c.totalCommitContributions,
+      restricted: c.restrictedContributionsCount,
       weeks: c.contributionCalendar.weeks.map((w) => w.contributionDays.reduce((a, d) => a + d.contributionCount, 0)),
       days,
     });
@@ -527,7 +529,8 @@ async function fetchStats(login) {
     metrics: {
       contributions: ['CONTRIBUTIONS', contributions, 'calendar', 'ALL TIME'],
       contributionsYear: ['CONTRIBUTIONS', user.contributionsCollection.contributionCalendar.totalContributions, 'calendar', 'LAST 12 MO'],
-      commits: ['COMMITS', years.reduce((a, y) => a + y.commits, 0), 'commit', 'ALL TIME'],
+      commits: ['COMMITS', years.reduce((a, y) => a + y.commits, 0), 'commit', 'PUBLIC'],
+      classified: ['CLASSIFIED OPS', years.reduce((a, y) => a + y.restricted, 0), 'lock', 'PRIVATE'],
       prs: ['PULL REQUESTS', user.pullRequests.totalCount, 'pr', 'OPENED'],
       issues: ['ISSUES', user.issues.totalCount, 'issue', 'OPENED'],
       stars: ['STARS', stars, 'star', 'EARNED'],
@@ -554,6 +557,7 @@ const ICONS = {
   clock: `<circle cx="9" cy="9" r="7.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 4.5V9l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>`,
   flame: `<path d="M9 1c1 3.5 5 5 5 9.5A5 5 0 0 1 4 10.5C4 8 5.5 6.8 6.5 5.5c.3 1.8 1.2 2.8 2.2 3C8.2 6 8 3.5 9 1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>`,
   shield: `<path d="M9 1l7 3v5c0 4-3 7-7 8.5C5 16 2 13 2 9V4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>`,
+  lock: `<rect x="2.5" y="8" width="13" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5.5 8V5.5a3.5 3.5 0 0 1 7 0V8" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="12.5" r="1.4" fill="currentColor"/>`,
 };
 
 function buildDiagnostics(s) {
@@ -623,7 +627,8 @@ ${ring}
 <g transform="translate(${x + 14} ${y + 14})" color="${C.arc}">${ICONS[icon] || ''}</g>
 <text class="m" x="${x + 40}" y="${y + 27}" font-size="12" fill="${C.muted}" letter-spacing="1"${chars(label) * 8.2 > w - 54 ? ` textLength="${w - 54}" lengthAdjust="spacingAndGlyphs"` : ''}>${esc(label)}</text>`;
   let tilesSvg = '';
-  config.stats.tiles.slice(0, 6).forEach((key, i) => {
+  const fallback = config.stats.tileFallback || {};
+  config.stats.tiles.slice(0, 6).map((k) => (fallback[k] && !s.metrics[k]?.[1] ? fallback[k] : k)).forEach((key, i) => {
     const [label, value, icon, note = ''] = s.metrics[key] || [key.toUpperCase(), 0, 'code'];
     const x = 620 + (i % 3) * 184, y = 96 + Math.floor(i / 3) * 98;
     tilesSvg += `${tile(x, y, 172, 86, accents[i % 3], icon, label, 0.25 + i * 0.07)}
@@ -736,6 +741,31 @@ ${p.front}`;
   return svg(W, H, `Repulsor targeting — weekly contributions since ${rows[0]?.year ?? s.thisYear}, ${s.contributions} in total`, defs, body, css);
 }
 
+// ─── 9. Comms buttons (social links) ────────────────────────────────
+function buildSocial(so, i) {
+  const W = 336, H = 96, shape = `M15 1H${W - 1}V${H - 16}L${W - 16} ${H - 1}H1V15Z`;
+  const handleW = Math.min(chars(so.handle) * 9, W - 96 - 46);
+  const defs = `
+<linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F131B"/><stop offset="1" stop-color="#140709"/></linearGradient>
+<linearGradient id="sbd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${C.red}"/><stop offset=".55" stop-color="${C.gold}"/><stop offset="1" stop-color="${C.red}"/></linearGradient>
+<clipPath id="sclip"><path d="${shape}"/></clipPath>
+<radialGradient id="sglow" cx="48" cy="48" r="44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="${C.arc}" stop-opacity=".28"/><stop offset="1" stop-color="${C.arc}" stop-opacity="0"/></radialGradient>
+<linearGradient id="sshine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="90" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-120 0;380 0;380 0" keyTimes="0;.35;1" dur="5s" begin="${i * 0.6}s" repeatCount="indefinite"/></linearGradient>`;
+  const body = `
+<path d="${shape}" fill="url(#sbg)"/>
+<g clip-path="url(#sclip)"><rect width="${W}" height="${H}" fill="url(#sshine)"/><rect x="0" y="${H - 4}" width="${W}" height="4" fill="${C.red}" fill-opacity=".55"/></g>
+<path d="${shape}" fill="none" stroke="url(#sbd)" stroke-width="2"/>
+<circle cx="48" cy="48" r="44" fill="url(#sglow)" style="animation:pulse 2.6s ease-in-out infinite;animation-delay:-${i * 0.7}s"/>
+<circle cx="48" cy="48" r="31" fill="${C.panel}" stroke="${C.gold}" stroke-width="1.5"/>
+<circle cx="48" cy="48" r="37" fill="none" stroke="${C.arc}" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="3 6" style="${origin(48, 48)};animation:${i % 2 ? 'spinr' : 'spin'} 14s linear infinite"/>
+<g transform="translate(33 33) scale(1.25)"><path d="${BRAND[so.id] || ''}" fill="${C.gold}"/></g>
+<text class="d" x="96" y="45" font-size="25" fill="${C.gold}" letter-spacing="2">${esc(so.label)}</text>
+<text class="m" x="96" y="72" font-size="15" fill="${C.muted}"${chars(so.handle) * 9 > handleW ? ` textLength="${handleW}" lengthAdjust="spacingAndGlyphs"` : ''}>${esc(so.handle)}</text>
+<circle cx="${W - 22}" cy="20" r="4" fill="${C.arc}" style="animation:blink 1.4s step-end infinite;animation-delay:-${i * 0.4}s"/>
+${[0, 1, 2].map((k) => `<path d="M${W - 42 + k * 9} 41l7 7-7 7" fill="none" stroke="${C.redHot}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:chase 1.2s linear infinite;animation-delay:${r2(k * 0.2 - 1.2)}s"/>`).join('')}`;
+  return svg(W, H, `${so.label} — ${so.handle}`, defs, body);
+}
+
 // ─── Main ───────────────────────────────────────────────────────────
 async function main() {
   await mkdir(OUT, { recursive: true });
@@ -750,6 +780,7 @@ async function main() {
     files[`section-${sec.id}-light.svg`] = buildSection(sec, 'light');
   }
   for (const k of ['mission', 'ai', 'comms', 'reactor']) files[`icon-${k}.svg`] = buildIcon(k);
+  (config.socials || []).forEach((so, i) => { files[`comms-${so.id}.svg`] = buildSocial(so, i); });
 
   if (!STATIC_ONLY) {
     if (!TOKEN) {

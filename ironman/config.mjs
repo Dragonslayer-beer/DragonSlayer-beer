@@ -68,6 +68,14 @@ export default {
     { image: 'ironman/status-3.png', state: 'UNKNOWN', text: "It works… and nobody knows how.", tone: 'arc' },
   ],
 
+  // HUD link buttons (the links themselves live in README.md).
+  // id must be one of: facebook, tiktok, instagram (see ironman/brand-icons.mjs)
+  socials: [
+    { id: 'facebook', label: 'FACEBOOK', handle: 'aphisit.inthongxay.9' },
+    { id: 'tiktok', label: 'TIKTOK', handle: '@beer_itx' },
+    { id: 'instagram', label: 'INSTAGRAM', handle: '@beer_itx' },
+  ],
+
   footer: {
     motto: 'SUIT UP. SHIP CODE. REPEAT.',
     signoff: 'J.A.R.V.I.S.  ·  END OF TRANSMISSION  ·  THANKS FOR VISITING',
@@ -75,11 +83,13 @@ export default {
 
   // Live stats card (built with the GitHub API).
   stats: {
-    // 6 readout tiles, pick from: contributions, contributionsYear, commits, prs,
-    // issues, stars, repos, followers, languages, years, activeDays
-    tiles: ['contributions', 'commits', 'prs', 'repos', 'languages', 'years'],
+    // 6 readout tiles, pick from: contributions, contributionsYear, commits, classified,
+    // prs, issues, stars, repos, followers, languages, years, activeDays
+    tiles: ['contributions', 'classified', 'commits', 'prs', 'repos', 'languages'],
+    // if a tile's value is 0, show this metric instead
+    tileFallback: { classified: 'years' },
     topLanguages: 6,
     excludeLanguages: [], // e.g. ['HTML', 'CSS']
-    excludeRepos: [], // repo names to ignore for languages/stars
+    excludeRepos: ['DragonSlayer-beer'], // repos to ignore for languages/stars (this profile repo = HUD generator code)
   },
 };
