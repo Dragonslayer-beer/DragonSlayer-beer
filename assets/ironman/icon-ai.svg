@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img" aria-label="ai icon">
+<title>ai icon</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs></defs>
+<rect x=".75" y=".75" width="26.5" height="26.5" rx="7" fill="#0B0E14" stroke="#F7C548" stroke-opacity=".55" stroke-width="1.5"/><g transform="translate(5 5) scale(.75)"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="#F7C548" stroke-width="2"/><rect x="9" y="9" width="6" height="6" fill="#7DF9FF" style="animation:pulse 1.6s ease-in-out infinite"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3" stroke="#F7C548" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

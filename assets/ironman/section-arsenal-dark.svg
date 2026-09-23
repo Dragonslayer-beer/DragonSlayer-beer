@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="02 // ARSENAL — TECH STACK">
+<title>02 // ARSENAL — TECH STACK</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="bl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C1121F"/><stop offset=".45" stop-color="#F7C548"/><stop offset="1" stop-color="#F7C548" stop-opacity="0"/></linearGradient></defs>
+
+<polygon points="53,20.95 64,40 53,59.05 31,59.05 20,40 31,20.95" fill="#0B0E14" stroke="#F7C548" stroke-width="2"/>
+<circle cx="42" cy="40" r="12" fill="none" stroke="#7DF9FF" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 3" style="transform-origin:42px 40px;animation:spin 10s linear infinite"/>
+<circle cx="42" cy="40" r="6.5" fill="#7DF9FF" style="animation:pulse 2s ease-in-out infinite"/>
+<text class="d" x="80" y="53" font-size="34" fill="#E63946">02</text>
+<text class="d" x="124" y="52" font-size="28" fill="#6B7488">//</text>
+<text class="d" x="164" y="53" font-size="34" fill="#F7C548" textLength="171.5" lengthAdjust="spacingAndGlyphs">ARSENAL</text>
+<text class="m" x="357.5" y="51" font-size="14" fill="#6B7488" textLength="117.6" lengthAdjust="spacingAndGlyphs">[ TECH STACK ]</text>
+<path d="M497.1 44H1146" stroke="#F7C548" stroke-opacity=".45" stroke-width="1.5"/>
+<path d="M497.1 44H1146" stroke="#7DF9FF" stroke-width="2.5" stroke-dasharray="46 500" style="animation:flow 4.5s linear infinite"/>
+<path d="M1152 38l6 6-6 6M1164 38l6 6-6 6M1176 38l6 6-6 6" fill="none" stroke="#E63946" stroke-width="2.2"/>
+<rect x="20" y="72" width="1160" height="2" fill="url(#bl)"/>
+</svg>

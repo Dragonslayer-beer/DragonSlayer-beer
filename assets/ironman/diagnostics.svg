@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Suit diagnostics — 187 contributions all time, top language Java, armor class Mark XLVI">
+<title>Suit diagnostics — 187 contributions all time, top language Java, armor class Mark XLVI</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}@keyframes seg0{from{stroke-dashoffset:337.9}}@keyframes seg1{from{stroke-dashoffset:157.1}}@keyframes seg2{from{stroke-dashoffset:67.64}}@keyframes seg3{from{stroke-dashoffset:60}}@keyframes seg4{from{stroke-dashoffset:48.73}}@keyframes growY{from{transform:scaleY(0)}to{transform:scaleY(1)}}</style>
+<defs>
+<clipPath id="dgClip"><rect width="1200" height="500" rx="18"/></clipPath>
+<linearGradient id="dgBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0E15"/><stop offset=".55" stop-color="#07080C"/><stop offset="1" stop-color="#110609"/></linearGradient>
+<linearGradient id="dgBd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C1121F"/><stop offset=".5" stop-color="#F7C548"/><stop offset="1" stop-color="#C1121F"/></linearGradient>
+<pattern id="dgHex" width="24.25" height="42" patternUnits="userSpaceOnUse"><path d="M12.13 0V7L24.25 14V28L12.13 35V42M12.13 35L0 28V14L12.13 7" fill="none" stroke="#7DF9FF" stroke-opacity="0.06" stroke-width="1"/></pattern>
+<radialGradient id="dgGl0" cx="195" cy="285" r="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7A0B12" stop-opacity="0.4"/><stop offset="1" stop-color="#7A0B12" stop-opacity="0"/></radialGradient><radialGradient id="dgGl1" cx="1050" cy="60" r="380" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B7892A" stop-opacity="0.1"/><stop offset="1" stop-color="#B7892A" stop-opacity="0"/></radialGradient>
+<radialGradient id="dcore" cx="195" cy="285" r="86" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7DF9FF" stop-opacity=".32"/><stop offset=".7" stop-color="#7DF9FF" stop-opacity=".08"/><stop offset="1" stop-color="#7DF9FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="195" y1="145" x2="275" y2="175"><stop offset="0" stop-color="#7DF9FF" stop-opacity=".3"/><stop offset="1" stop-color="#7DF9FF" stop-opacity="0"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7C548"/><stop offset="1" stop-color="#C1121F"/></linearGradient>
+<linearGradient id="barNow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DF9FF"/><stop offset="1" stop-color="#1FB6C9" stop-opacity=".5"/></linearGradient></defs>
+
+<g clip-path="url(#dgClip)">
+<rect width="1200" height="500" fill="url(#dgBg)"/>
+<rect width="1200" height="500" fill="url(#dgGl0)"/><rect width="1200" height="500" fill="url(#dgGl1)"/>
+<rect width="1200" height="500" fill="url(#dgHex)"/>
+<text x="40" y="52"><tspan class="d" font-size="30" fill="#F7C548" letter-spacing="3">SUIT DIAGNOSTICS</tspan><tspan class="m" font-size="14" fill="#8A94A6" letter-spacing="1.5">   //  LIVE TELEMETRY · GITHUB</tspan></text>
+<circle cx="954" cy="47" r="4.5" fill="#7DF9FF" style="animation:blink 1.6s step-end infinite"/>
+<text class="m" x="1160" y="52" font-size="13" fill="#7DF9FF" text-anchor="end" letter-spacing="1">SYNCED 2026-09-23 UTC</text>
+<path d="M40 72H1160" stroke="#1E2633"/>
+<rect x="40" y="71" width="120" height="3" fill="#C1121F"/>
+<text class="m" x="40" y="108" font-size="12" fill="#8A94A6" letter-spacing="1">POWER DISTRIBUTION · TOP LANGUAGES</text>
+
+<path d="M195 154L195 143M209.22 149.75L209.84 143.78M223.28 151.97L224.52 146.1M237.03 155.66L238.88 149.95M250.32 160.76L252.76 155.28M260.5 171.55L266 162.02M274.94 174.97L278.47 170.12M286 183.93L290.02 179.47M296.07 194L300.53 189.98M305.03 205.06L309.88 201.53M308.45 219.5L317.98 214M319.24 229.68L324.72 227.24M324.34 242.97L330.05 241.12M328.03 256.72L333.9 255.48M330.25 270.78L336.22 270.16M326 285L337 285M330.25 299.22L336.22 299.84M328.03 313.28L333.9 314.52M324.34 327.03L330.05 328.88M319.24 340.32L324.72 342.76M308.45 350.5L317.98 356M305.03 364.94L309.88 368.47M296.07 376L300.53 380.02M286 386.07L290.02 390.53M274.94 395.03L278.47 399.88M260.5 398.45L266 407.98M250.32 409.24L252.76 414.72M237.03 414.34L238.88 420.05M223.28 418.03L224.52 423.9M209.22 420.25L209.84 426.22M195 416L195 427M180.78 420.25L180.16 426.22M166.72 418.03L165.48 423.9M152.97 414.34L151.12 420.05M139.68 409.24L137.24 414.72M129.5 398.45L124 407.98M115.06 395.03L111.53 399.88M104 386.07L99.98 390.53M93.93 376L89.47 380.02M84.97 364.94L80.12 368.47M81.55 350.5L72.02 356M70.76 340.32L65.28 342.76M65.66 327.03L59.95 328.88M61.97 313.28L56.1 314.52M59.75 299.22L53.78 299.84M64 285L53 285M59.75 270.78L53.78 270.16M61.97 256.72L56.1 255.48M65.66 242.97L59.95 241.12M70.76 229.68L65.28 227.24M81.55 219.5L72.02 214M84.97 205.06L80.12 201.53M93.93 194L89.47 189.98M104 183.93L99.98 179.47M115.06 174.97L111.53 170.12M129.5 171.55L124 162.02M139.68 160.76L137.24 155.28M152.97 155.66L151.12 149.95M166.72 151.97L165.48 146.1M180.78 149.75L180.16 143.78" stroke="#7DF9FF" stroke-opacity=".45" style="transform-origin:195px 285px;animation:spin 90s linear infinite"/>
+<g style="transform-origin:195px 285px;animation:spin 6s linear infinite"><path d="M195 139A146 146 0 0 1 288.85 173.16L195 285A0 0 0 0 0 195 285Z" fill="url(#sweep)"/></g>
+<circle cx="195" cy="285" r="112" fill="none" stroke="#151B26" stroke-width="26"/><path d="M198.13 173.04A112 112 0 0 1 205.82 396.48" fill="none" stroke="#F7C548" stroke-width="26" stroke-dasharray="337.9 337.9" style="animation:seg0 .9s ease-out 0.2s both"/><path d="M199.58 396.91A112 112 0 0 1 85.44 308.24" fill="none" stroke="#E63946" stroke-width="26" stroke-dasharray="157.1 157.1" style="animation:seg1 .9s ease-out 0.32s both"/><path d="M84.31 302.08A112 112 0 0 1 94.19 236.21" fill="none" stroke="#7DF9FF" stroke-width="26" stroke-dasharray="67.64 67.64" style="animation:seg2 .9s ease-out 0.44s both"/><path d="M97.07 230.65A112 112 0 0 1 138.53 188.28" fill="none" stroke="#FF8C42" stroke-width="26" stroke-dasharray="60 60" style="animation:seg3 .9s ease-out 0.56s both"/><path d="M144.02 185.28A112 112 0 0 1 190.81 173.08" fill="none" stroke="#C9D1D9" stroke-width="26" stroke-dasharray="48.73 48.73" style="animation:seg4 .9s ease-out 0.68s both"/>
+<circle cx="195" cy="285" r="92" fill="none" stroke="#7DF9FF" stroke-opacity=".7" stroke-width="2"/>
+<circle cx="195" cy="285" r="86" fill="url(#dcore)" style="animation:pulse 2.8s ease-in-out infinite"/>
+<text class="m" x="195" y="257" font-size="11" fill="#8A94A6" text-anchor="middle" letter-spacing="2">PRIMARY CORE</text>
+<text class="d" x="195" y="299" font-size="44" fill="#E8EDF2" text-anchor="middle">49<tspan font-size="24" fill="#8A94A6">%</tspan></text>
+<text class="m" x="195" y="325" font-size="14" fill="#F7C548" text-anchor="middle" letter-spacing="1" font-weight="700">JAVA</text>
+<g style="animation:rise .5s ease-out 0.3s both">
+<rect x="365" y="143" width="9" height="9" fill="#F7C548" transform="rotate(45 369.5 147.5)"/>
+<text class="m" x="384" y="154" font-size="15" fill="#E8EDF2">Java</text>
+<text class="d" x="562" y="154" font-size="17" fill="#F7C548" text-anchor="end">48.9%</text>
+<rect x="384" y="162" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="162" width="178" height="4" fill="#F7C548" style="transform-origin:384px 164px;animation:grow .9s ease-out 0.4s both"/></g><g style="animation:rise .5s ease-out 0.38s both">
+<rect x="365" y="186.67" width="9" height="9" fill="#E63946" transform="rotate(45 369.5 191.17)"/>
+<text class="m" x="384" y="197.67" font-size="15" fill="#E8EDF2">C#</text>
+<text class="d" x="562" y="197.67" font-size="17" fill="#F7C548" text-anchor="end">23.2%</text>
+<rect x="384" y="205.67" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="205.67" width="84.49" height="4" fill="#E63946" style="transform-origin:384px 207.67px;animation:grow .9s ease-out 0.48s both"/></g><g style="animation:rise .5s ease-out 0.46s both">
+<rect x="365" y="230.33" width="9" height="9" fill="#7DF9FF" transform="rotate(45 369.5 234.83)"/>
+<text class="m" x="384" y="241.33" font-size="15" fill="#E8EDF2">VB.NET</text>
+<text class="d" x="562" y="241.33" font-size="17" fill="#F7C548" text-anchor="end">10.5%</text>
+<rect x="384" y="249.33" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="249.33" width="38.22" height="4" fill="#7DF9FF" style="transform-origin:384px 251.33px;animation:grow .9s ease-out 0.56s both"/></g><g style="animation:rise .5s ease-out 0.54s both">
+<rect x="365" y="274" width="9" height="9" fill="#FF8C42" transform="rotate(45 369.5 278.5)"/>
+<text class="m" x="384" y="285" font-size="15" fill="#E8EDF2">JavaScript</text>
+<text class="d" x="562" y="285" font-size="17" fill="#F7C548" text-anchor="end">9.4%</text>
+<rect x="384" y="293" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="293" width="34.27" height="4" fill="#FF8C42" style="transform-origin:384px 295px;animation:grow .9s ease-out 0.64s both"/></g><g style="animation:rise .5s ease-out 0.62s both">
+<rect x="365" y="317.67" width="9" height="9" fill="#C9D1D9" transform="rotate(45 369.5 322.17)"/>
+<text class="m" x="384" y="328.67" font-size="15" fill="#E8EDF2">TypeScript</text>
+<text class="d" x="562" y="328.67" font-size="17" fill="#F7C548" text-anchor="end">7.8%</text>
+<rect x="384" y="336.67" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="336.67" width="28.44" height="4" fill="#C9D1D9" style="transform-origin:384px 338.67px;animation:grow .9s ease-out 0.72s both"/></g><g style="animation:rise .5s ease-out 0.7s both">
+<rect x="365" y="361.33" width="9" height="9" fill="#1FB6C9" transform="rotate(45 369.5 365.83)"/>
+<text class="m" x="384" y="372.33" font-size="15" fill="#E8EDF2">CSS</text>
+<text class="d" x="562" y="372.33" font-size="17" fill="#F7C548" text-anchor="end">0.1%</text>
+<rect x="384" y="380.33" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="380.33" width="0.22" height="4" fill="#1FB6C9" style="transform-origin:384px 382.33px;animation:grow .9s ease-out 0.8s both"/></g><g style="animation:rise .5s ease-out 0.78s both">
+<rect x="365" y="405" width="9" height="9" fill="#4A5568" transform="rotate(45 369.5 409.5)"/>
+<text class="m" x="384" y="416" font-size="15" fill="#E8EDF2">Other</text>
+<text class="d" x="562" y="416" font-size="17" fill="#F7C548" text-anchor="end">0.1%</text>
+<rect x="384" y="424" width="178" height="4" fill="#151B26"/>
+<rect x="384" y="424" width="0.33" height="4" fill="#4A5568" style="transform-origin:384px 426px;animation:grow .9s ease-out 0.88s both"/></g>
+<path d="M592 96V470" stroke="#1E2633"/>
+<g style="animation:rise .55s ease-out 0.25s both">
+<path d="M620 96H780L792 108V182H620Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="620" y="96" width="3" height="86" fill="#F7C548"/>
+<g transform="translate(634 110)" color="#7DF9FF"><rect x="1.5" y="3" width="15" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M1.5 7h15M5.5 1v4M12.5 1v4" stroke="currentColor" stroke-width="1.6"/><rect x="5" y="9.5" width="3" height="3" fill="currentColor"/></g>
+<text class="m" x="660" y="123" font-size="12" fill="#8A94A6" letter-spacing="1">CONTRIBUTIONS</text>
+<text class="d" x="634" y="167" font-size="34" fill="#F7C548">187</text>
+<text class="m" x="780" y="166" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">ALL TIME</text></g><g style="animation:rise .55s ease-out 0.32s both">
+<path d="M804 96H964L976 108V182H804Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="804" y="96" width="3" height="86" fill="#E63946"/>
+<g transform="translate(818 110)" color="#7DF9FF"><circle cx="9" cy="9" r="3.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M0 9h5.4M12.6 9H18" stroke="currentColor" stroke-width="1.8"/></g>
+<text class="m" x="844" y="123" font-size="12" fill="#8A94A6" letter-spacing="1">COMMITS</text>
+<text class="d" x="818" y="167" font-size="34" fill="#F7C548">165</text>
+<text class="m" x="964" y="166" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">ALL TIME</text></g><g style="animation:rise .55s ease-out 0.39s both">
+<path d="M988 96H1148L1160 108V182H988Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="988" y="96" width="3" height="86" fill="#7DF9FF"/>
+<g transform="translate(1002 110)" color="#7DF9FF"><circle cx="4" cy="3.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="4" cy="14.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="14.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 5.7v6.6M14 12.3V7a3 3 0 0 0-3-3H8M10 1.5L7.5 4 10 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></g>
+<text class="m" x="1028" y="123" font-size="12" fill="#8A94A6" letter-spacing="1">PULL REQUESTS</text>
+<text class="d" x="1002" y="167" font-size="34" fill="#F7C548">5</text>
+<text class="m" x="1148" y="166" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">OPENED</text></g><g style="animation:rise .55s ease-out 0.46s both">
+<path d="M620 194H780L792 206V280H620Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="620" y="194" width="3" height="86" fill="#F7C548"/>
+<g transform="translate(634 208)" color="#7DF9FF"><path d="M3 2.5A1.5 1.5 0 0 1 4.5 1H15v13H4.5A1.5 1.5 0 0 0 3 15.5zM3 15.5A1.5 1.5 0 0 0 4.5 17H15v-3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6.5 4.5h5" stroke="currentColor" stroke-width="1.6"/></g>
+<text class="m" x="660" y="221" font-size="12" fill="#8A94A6" letter-spacing="1">REPOSITORIES</text>
+<text class="d" x="634" y="265" font-size="34" fill="#F7C548">15</text>
+<text class="m" x="780" y="264" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">PUBLIC</text></g><g style="animation:rise .55s ease-out 0.53s both">
+<path d="M804 194H964L976 206V280H804Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="804" y="194" width="3" height="86" fill="#E63946"/>
+<g transform="translate(818 208)" color="#7DF9FF"><path d="M5.5 4.5L1 9l4.5 4.5M12.5 4.5L17 9l-4.5 4.5M10.5 2l-3 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text class="m" x="844" y="221" font-size="12" fill="#8A94A6" letter-spacing="1">LANGUAGES</text>
+<text class="d" x="818" y="265" font-size="34" fill="#F7C548">8</text>
+<text class="m" x="964" y="264" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">IN USE</text></g><g style="animation:rise .55s ease-out 0.6s both">
+<path d="M988 194H1148L1160 206V280H988Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="988" y="194" width="3" height="86" fill="#7DF9FF"/>
+<g transform="translate(1002 208)" color="#7DF9FF"><circle cx="9" cy="9" r="7.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 4.5V9l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></g>
+<text class="m" x="1028" y="221" font-size="12" fill="#8A94A6" letter-spacing="1">YEARS ACTIVE</text>
+<text class="d" x="1002" y="265" font-size="34" fill="#F7C548">6</text>
+<text class="m" x="1148" y="264" font-size="10" fill="#8A94A6" fill-opacity=".8" text-anchor="end" letter-spacing="1">SINCE 2020</text></g><g style="animation:rise .55s ease-out 0.7s both">
+<path d="M620 292H872L884 304V372H620Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="620" y="292" width="3" height="80" fill="#E63946"/>
+<g transform="translate(634 306)" color="#7DF9FF"><path d="M9 1c1 3.5 5 5 5 9.5A5 5 0 0 1 4 10.5C4 8 5.5 6.8 6.5 5.5c.3 1.8 1.2 2.8 2.2 3C8.2 6 8 3.5 9 1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></g>
+<text class="m" x="660" y="319" font-size="12" fill="#8A94A6" letter-spacing="1">LONGEST FLIGHT</text>
+<text class="d" x="634" y="356" font-size="34" fill="#F7C548">5<tspan class="m" font-size="14" fill="#8A94A6" font-weight="400"> DAYS STREAK</tspan></text>
+<text class="m" x="870" y="336" font-size="11" fill="#8A94A6" text-anchor="end" letter-spacing="1">ACTIVE DAYS</text>
+<text class="d" x="870" y="358" font-size="20" fill="#7DF9FF" text-anchor="end">63</text></g>
+<g style="animation:rise .55s ease-out 0.78s both">
+<path d="M896 292H1148L1160 304V372H896Z" fill="#0D121A" fill-opacity=".92" stroke="#1E2633" stroke-width="1.2"/>
+<rect x="896" y="292" width="3" height="80" fill="#F7C548"/>
+<g transform="translate(910 306)" color="#7DF9FF"><path d="M9 1l7 3v5c0 4-3 7-7 8.5C5 16 2 13 2 9V4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></g>
+<text class="m" x="936" y="319" font-size="12" fill="#8A94A6" letter-spacing="1">ARMOR CLASS</text>
+<text class="d" x="910" y="356" font-size="32" fill="#F7C548">MARK XLVI</text>
+<polygon points="1134,313.22 1146,334 1134,354.78 1110,354.78 1098,334 1110,313.22" fill="none" stroke="#F7C548" stroke-width="2"/>
+<polygon points="1130.5,319.28 1139,334 1130.5,348.72 1113.5,348.72 1105,334 1113.5,319.28" fill="#7DF9FF" fill-opacity=".12" stroke="#7DF9FF" stroke-opacity=".6" style="animation:pulse 2s ease-in-out infinite"/>
+<text class="d" x="1122" y="341" font-size="18" fill="#7DF9FF" text-anchor="middle">46</text></g>
+<text class="m" x="620" y="400" font-size="12" fill="#8A94A6" letter-spacing="1">FLIGHT LOG · CONTRIBUTIONS PER YEAR  (* = so far this year)</text>
+<path d="M620 460H1160" stroke="#1E2633"/>
+<rect x="657" y="458" width="58" height="2" fill="url(#bar)" style="transform-origin:657px 460px;animation:growY .8s ease-out 0.8s both"/>
+<text class="m" x="686" y="453" font-size="11" fill="#E8EDF2" text-anchor="middle">1</text>
+<text class="m" x="686" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2020</text><rect x="725" y="448.17" width="58" height="11.83" fill="url(#bar)" style="transform-origin:725px 460px;animation:growY .8s ease-out 0.88s both"/>
+<text class="m" x="754" y="443.17" font-size="11" fill="#E8EDF2" text-anchor="middle">20</text>
+<text class="m" x="754" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2021</text><rect x="793" y="452.9" width="58" height="7.1" fill="url(#bar)" style="transform-origin:793px 460px;animation:growY .8s ease-out 0.96s both"/>
+<text class="m" x="822" y="447.9" font-size="11" fill="#E8EDF2" text-anchor="middle">12</text>
+<text class="m" x="822" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2022</text><rect x="861" y="445.8" width="58" height="14.2" fill="url(#bar)" style="transform-origin:861px 460px;animation:growY .8s ease-out 1.04s both"/>
+<text class="m" x="890" y="440.8" font-size="11" fill="#E8EDF2" text-anchor="middle">24</text>
+<text class="m" x="890" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2023</text><rect x="929" y="425.69" width="58" height="34.31" fill="url(#bar)" style="transform-origin:929px 460px;animation:growY .8s ease-out 1.12s both"/>
+<text class="m" x="958" y="420.69" font-size="11" fill="#E8EDF2" text-anchor="middle">58</text>
+<text class="m" x="958" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2024</text><rect x="997" y="418" width="58" height="42" fill="url(#bar)" style="transform-origin:997px 460px;animation:growY .8s ease-out 1.2s both"/>
+<text class="m" x="1026" y="413" font-size="11" fill="#E8EDF2" text-anchor="middle">71</text>
+<text class="m" x="1026" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2025</text><rect x="1065" y="458" width="58" height="2" fill="url(#barNow)" style="transform-origin:1065px 460px;animation:growY .8s ease-out 1.28s both"/>
+<text class="m" x="1094" y="453" font-size="11" fill="#7DF9FF" text-anchor="middle">1</text>
+<text class="m" x="1094" y="476" font-size="11" fill="#8A94A6" text-anchor="middle">2026*</text>
+</g>
+<rect x="1" y="1" width="1198" height="498" rx="17" fill="none" stroke="url(#dgBd)" stroke-width="2" stroke-opacity=".9"/>
+<path d="M12 34V12H34M1166 12H1188V34M1188 466V488H1166M34 488H12V466" fill="none" stroke="#F7C548" stroke-width="2" stroke-opacity="0.85"/>
+</svg>

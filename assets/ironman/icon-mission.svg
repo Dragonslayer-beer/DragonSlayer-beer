@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img" aria-label="mission icon">
+<title>mission icon</title>
+<style>
+.d{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.dl{font-family:'Bahnschrift','DIN Alternate','DIN Condensed','Roboto Condensed','Arial Narrow','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:400}
+.m{font-family:'SF Mono','JetBrains Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.25}50%{opacity:.65}}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+@keyframes chase{0%{opacity:.6}35%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-240}}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(560px)}}
+@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lock{0%{transform:scale(1.35);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs></defs>
+<rect x=".75" y=".75" width="26.5" height="26.5" rx="7" fill="#0B0E14" stroke="#F7C548" stroke-opacity=".55" stroke-width="1.5"/><g transform="translate(5 5) scale(.75)"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" fill="none" stroke="#F7C548" stroke-width="2" stroke-linejoin="round"/></g>
+</svg>
