@@ -35,17 +35,17 @@ export default {
   // Facial-recognition card. Use a square photo (~440px).
   // face / landmarks are positions inside the photo, from 0 to 1.
   pilot: {
-    photo: 'ironman/pilot.jpg',
-    face: { x: 0.325, y: 0.18, w: 0.34, h: 0.39 },
+    photo: 'ironman/pilot-ironman.jpg', // previous photo: ironman/pilot.jpg (F1 suit)
+    face: { x: 0.386, y: 0.09, w: 0.307, h: 0.34 },
     landmarks: [
-      [0.489, 0.227], // forehead
-      [0.41, 0.318], // left eye
-      [0.54, 0.318], // right eye
-      [0.375, 0.43], // left cheek
-      [0.473, 0.405], // nose
-      [0.615, 0.43], // right cheek
-      [0.473, 0.455], // mouth
-      [0.477, 0.55], // chin
+      [0.523, 0.155], // forehead
+      [0.461, 0.216], // left eye
+      [0.573, 0.216], // right eye
+      [0.436, 0.291], // left cheek
+      [0.527, 0.268], // nose
+      [0.643, 0.284], // right cheek
+      [0.527, 0.311], // mouth
+      [0.534, 0.391], // chin
     ],
     callsign: 'DRAGONSLAYER-BEER',
     match: '99.7%',
